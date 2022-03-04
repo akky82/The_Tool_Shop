@@ -312,7 +312,7 @@ p a:focus,
 
 .item-content {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 15em;
     grid-template-rows: 40% 60%;
     place-content: start;
     margin-block: 0 auto;
@@ -326,7 +326,7 @@ p a:focus,
     flex-grow: 1;
     padding-top: 0;
     padding-inline: 1em;
-    width: clamp(11em, 10em + 2vw, 16em);
+    width: clamp(13em, 10em + 2vw, 16em);
 }
 
 .item-desc {
