@@ -291,7 +291,7 @@ p a:focus,
     width: clamp(20rem, 80vw, 60rem);
     background: var(--card-color);
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: 0 0 0.5rem var(--shadow-color);
     min-height: 7em;
     font-size: var(--font-size-3);
@@ -307,7 +307,7 @@ p a:focus,
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5rem var(--shadow-color);
     width: clamp(11em, 10em + 2vw, 19em);
-    margin-left: clamp(0.5em, 0em + 5vw, 5em);
+    margin-left: clamp(0.5em, 0em + 3vw, 5em);
 }
 
 .item-content {
@@ -672,6 +672,9 @@ footer p {
     .card-description {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .item-card {
+        padding: 1.5em;
     }
     .item-content {
         grid-template-columns: auto auto auto;
