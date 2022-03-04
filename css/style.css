@@ -306,7 +306,7 @@ p a:focus,
     object-fit: cover;
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5rem var(--shadow-color);
-    width: clamp(12em, 10em + 2vw, 19em);
+    width: clamp(11em, 10em + 2vw, 19em);
     margin-left: clamp(0.5em, 0em + 5vw, 5em);
 }
 
